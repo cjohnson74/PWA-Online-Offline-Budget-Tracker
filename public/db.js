@@ -84,4 +84,7 @@ const saveRecord = (record) => {
 
     // Access your BudgetStore object store
     const store = transaction.objectStore('BudgetStore');
+
+    // Add record to your store with add method
+    store.add(record);
 }
