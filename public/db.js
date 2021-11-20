@@ -60,7 +60,12 @@ function checkDatabase() {
                         currentStore.clear();
                         console.log('Clearing store 🧹')
                     }
-                })
+                });
         }
-    }
+    };
+}
+
+request.onsuccess = function (e) {
+    console.log('success');
+    db = e.target.result;
 }
