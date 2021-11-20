@@ -17,4 +17,8 @@ request.onupgradeneeded = function (e) {
     if (db.objectStoreNames.length === 0) {
         db.createObjectStore('BudgetStore', { autoIncrement: true });
     }
-}
+};
+
+request.onerror = function (e) {
+    console.log(`Woops! ${e.target.errorCode}`);
+};
