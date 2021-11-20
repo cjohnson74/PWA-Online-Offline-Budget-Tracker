@@ -55,6 +55,10 @@ function checkDatabase() {
 
                         // Assign the current store to a variable
                         const currentStore = transaction.objectStore('BudgetStore');
+
+                        // Clear existing entries because our bulk add was successful
+                        currentStore.clear();
+                        console.log('Clearing store 🧹')
                     }
                 })
         }
