@@ -75,3 +75,7 @@ request.onsuccess = function (e) {
         checkDatabase();
     }
 };
+
+const saveRecord = (record) => {
+    
+}
