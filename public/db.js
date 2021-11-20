@@ -9,4 +9,7 @@ request.onupgradeneeded = function (e) {
 
     const { oldVersion } = e;
     const newVersion = e.newVersion || db.version;
+
+    console.log(`DB Updated from version ${oldVersion} to ${newVersion}`);
+    
 }
