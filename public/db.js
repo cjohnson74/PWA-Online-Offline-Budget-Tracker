@@ -31,4 +31,7 @@ function checkDatabase() {
 
     // access your BudgetStore object
     const store = transaction.objectStore('BudgetStore');
+
+    // Get all records from store and set to a variable
+    const getAll = store.getAll();
 }
