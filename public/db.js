@@ -26,5 +26,6 @@ request.onerror = function (e) {
 function checkDatabase() {
     console.log('check db invoked');
 
-    
+    // Open a transaction on your BudgetStore db
+    let transaction = db.transaction(['BudgetStore'], 'readwrite');
 }
