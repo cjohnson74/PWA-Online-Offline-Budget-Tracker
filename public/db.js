@@ -37,6 +37,15 @@ function checkDatabase() {
 
     // If the request was successful
     getAll.onsuccess = function() {
-        
+        // If there are items in the store, we need to bulk add them when we are back online
+        if (getAll.result.length > 0) {
+            fetch('/api/transaction/bulk', {
+                method: 'POST',
+                body: JSON.stringify(getAll.result),
+                headers: {
+                    Accept: 'application/json, text/plain, */*', 'Content-Type': 'application/json',
+                },
+            })
+        }
     }
 }
