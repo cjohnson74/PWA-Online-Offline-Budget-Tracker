@@ -1,6 +1,16 @@
 # PWA-Online-Offline-Budget-Tracker
 The functionality in this Budget Tracker application allows for offline access and functionality.  The user is able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they populate the total when brought back online.
 
+Offline Functionality:
+
+  * Enter deposits offline
+
+  * Enter expenses offline
+
+When brought back online:
+
+  * Offline entries should be added to tracker.
+
 ## Live Heroku Site
 <a href="https://pwa-offline-budget-tracker-app.herokuapp.com/"><img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white"/></a>
 
