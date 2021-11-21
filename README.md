@@ -2,7 +2,7 @@
 The functionality in this Budget Tracker application allows for offline access and functionality.  The user is able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they populate the total when brought back online.
 
 ## Live Heroku Site
-[Live App](https://pwa-offline-budget-tracker-app.herokuapp.com/)
+<a href="https://pwa-offline-budget-tracker-app.herokuapp.com/"><img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white"/></a>
 
 ## Screenshot
 <img width="891" alt="PWA-Budget-Tracker" src="https://user-images.githubusercontent.com/52815609/142744347-58ec3c10-1276-4e64-947c-77c0f2a9cc4d.png">
