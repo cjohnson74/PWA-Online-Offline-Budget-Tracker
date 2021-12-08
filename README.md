@@ -13,6 +13,16 @@ The functionality in this Budget Tracker application allows for offline access a
 
   * Offline entries should be added to tracker.
 
+## Technologies
+
+### HTML
+### CSS
+### JavaScript
+### Mongoose
+### Express
+### Morgan
+### API
+
 ## Live Heroku Site
 <a href="https://pwa-offline-budget-tracker-app.herokuapp.com/"><img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white"/></a>
 
